@@ -14,5 +14,6 @@ function getAdvice(){
 function insertAdvice(res) {
     h1.textContent = `advice #${res.slip.id}`
     p.textContent = res.slip.advice
-    console.log(res);
 }
+
+getAdvice()
