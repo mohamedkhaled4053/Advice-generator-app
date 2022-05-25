@@ -6,7 +6,9 @@ let p = document.querySelector('p')
 dice.onclick = getAdvice
 
 function getAdvice(){
-    fetch('https://api.adviceslip.com/advice')
+    fetch('https://api.adviceslip.com/advice',{
+        cache: 'no-cache'
+    })
     .then(res => res.json())
     .then(insertAdvice)
 }
