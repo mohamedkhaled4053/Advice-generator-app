@@ -20,11 +20,12 @@ body {
 
 main {
   background-color: #313a49;
-  max-width: 550px;
+  width: 550px;
   padding: 50px;
   border-radius: 15px;
   text-align: center;
   position: relative;
+  max-width: 90%;
 }
 main h1 {
   color: hsl(150deg, 100%, 66%);
@@ -41,6 +42,7 @@ main .divider {
   content: url(../images/pattern-divider-desktop.svg);
   margin-top: 50px;
   margin-bottom: 20px;
+  width: 100%;
 }
 @media (max-width: 500px) {
   main .divider {
