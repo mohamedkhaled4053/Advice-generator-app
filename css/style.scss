@@ -41,6 +41,12 @@ main{
     p{
         color: hsl(193, 38%, 86%);
         font-size: 28px;
+
+        svg{
+            font-size: 15px;
+            position: relative;
+            top: -10px;
+        }
     }
 
     .divider{

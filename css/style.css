@@ -38,6 +38,11 @@ main p {
   color: hsl(193deg, 38%, 86%);
   font-size: 28px;
 }
+main p svg {
+  font-size: 15px;
+  position: relative;
+  top: -10px;
+}
 main .divider {
   content: url(../images/pattern-divider-desktop.svg);
   margin-top: 50px;

@@ -15,7 +15,11 @@ function getAdvice(){
 
 function insertAdvice(res) {
     h1.textContent = `advice #${res.slip.id}`
-    p.textContent = res.slip.advice
+    p.innerHTML = `
+    <i class="fa-solid fa-quote-left"></i>
+    ${res.slip.advice}
+    <i class="fa-solid fa-quote-right"></i>
+    `
 }
 
 getAdvice()
